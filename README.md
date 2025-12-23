@@ -4,13 +4,21 @@
   npm
   Local or network-accessible machine
 
-2.Install dependencies:
-  npm install
+2.Initialize a Node.js Project:
+  mkdir my-node-project
+  cd my-node-project
+  npm init -y
+  
+3. Install Express:
+  npm install express
 
-3.Start the server:
-  npm start
+4. Nodemon automatically restarts your server
+  npm install --save-dev nodemon
 
-4.Default backend runs at http://<IP>:3000/api
+5.Start the server:
+  node src\app.js
+
+6.Default backend runs at http://<IP>:3000/api
   Endpoints:
   Method	Endpoint	Description
   GET	/api/products	Fetch all products
